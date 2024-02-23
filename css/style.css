@@ -7,11 +7,19 @@
 body header {
   background-color: #D6B287;
   color: black;
+  position: static;
+  top: 0%;
+  width: 100%;
 }
 body header a {
   text-decoration: none;
   color: black;
   text-align: end;
+}
+body header a:hover {
+  background-color: black;
+  text-decoration: solid;
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */
