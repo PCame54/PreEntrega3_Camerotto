@@ -17,24 +17,16 @@ header{
                 margin-left: 40px;
                 width: 130px;
                 padding-bottom: 20px;
-
-                h1{
-                    display: inline;
-                    font-family: 'Courier New', Courier, monospace;
-                    margin-top: 0;
                     
-                    h2{
-
-                        .menu-container{
-                            position: absolute;
-                            text-decoration: none;
-
-                            .menu{
-                                display: inline;
-
-                                li {
-                                    text-decoration: none;
-                                }
+                    .menu-container{
+                    position: absolute;
+                    text-decoration: none;
+                                            
+                        .menu{
+                            display: inline;
+                            
+                            li {
+                                text-decoration: none;
                             }
                         }
                     }
@@ -42,4 +34,20 @@ header{
             }
         }
     }
+
+
+    
+h1{
+    display: inline;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+h2 {
+    display: inline;
+    position: absolute;
+    top: 80px;
+    left: 175px;
+    font-size: 22px;
+    font-weight: 600;
 }

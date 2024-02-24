@@ -21,20 +21,29 @@ header nav a .logo1 {
   width: 130px;
   padding-bottom: 20px;
 }
-header nav a .logo1 h1 {
-  display: inline;
-  font-family: "Courier New", Courier, monospace;
-  margin-top: 0;
-}
-header nav a .logo1 h1 h2 .menu-container {
+header nav a .logo1 .menu-container {
   position: absolute;
   text-decoration: none;
 }
-header nav a .logo1 h1 h2 .menu-container .menu {
+header nav a .logo1 .menu-container .menu {
   display: inline;
 }
-header nav a .logo1 h1 h2 .menu-container .menu li {
+header nav a .logo1 .menu-container .menu li {
   text-decoration: none;
+}
+
+h1 {
+  display: inline;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+h2 {
+  display: inline;
+  position: absolute;
+  top: 80px;
+  left: 175px;
+  font-size: 22px;
+  font-weight: 600;
 }
 
 /*
