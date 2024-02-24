@@ -1,0 +1,24 @@
+/*Extends son como una bolsa de propiedades que podemos reutilizar o heredar en distintos lugares, es decir creamos esto una vez y lo podemos trasladar a muchos lugares de mnuestro código*/
+/*-ej. si uso mucho flexbox*/
+
+/* % se llama placeholder en sass + nomre {propiedades */
+
+/* Tengo todos los botones de mi web que son iguales en estructura y solo cambian su background color - entonces me creo una bolsita, una extensión para usarla en todas partes*/
+
+%botones {
+    border: 1px solid black;
+    padding: 10px;
+    border radius: 4px;
+}
+
+.button-error {
+    background-color: red;
+    @extend %botones
+}
+
+.button-ok {
+    background-color: green;
+    @extend %botones;
+}
+
+
