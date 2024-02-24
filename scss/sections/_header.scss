@@ -1,0 +1,29 @@
+@import "../base/variables";
+@import "../base/listas";
+
+
+
+header{
+    background-color: nth($colores, 1);
+    top: 0%;
+    width: 100%;
+    
+    nav{
+    
+        a {
+            text-decoration: none;
+            
+            .logo1 {
+                display: inline;
+                margin-top: 20px;
+                margin-left: 40px;
+                width: 130px;
+                padding-bottom: 20px;
+                
+                div {
+
+                }
+            }
+        }
+    }
+}
