@@ -9,8 +9,7 @@
 /* lista de fuentes */
 header {
   background-color: #D6B287;
-  top: 0%;
-  width: 100%;
+  color: black;
 }
 header nav a {
   text-decoration: none;
@@ -22,14 +21,90 @@ header nav a .logo1 {
   width: 130px;
   padding-bottom: 20px;
 }
+header nav a .logo1 h1 {
+  display: inline;
+  font-family: "Courier New", Courier, monospace;
+  margin-top: 0;
+}
+header nav a .logo1 h1 h2 .menu-container {
+  position: absolute;
+  text-decoration: none;
+}
+header nav a .logo1 h1 h2 .menu-container .menu {
+  display: inline;
+}
+header nav a .logo1 h1 h2 .menu-container .menu li {
+  text-decoration: none;
+}
 
+/*
+
+header{
+    background-color: nth($colores, 1);
+    top: 0%;
+    width: 100%;
+
+    nav{
+
+        a {
+            text-decoration: none;
+
+            .logo1 {
+                display: inline;
+                margin-top: 20px;
+                margin-left: 40px;
+                width: 130px;
+                padding-bottom: 20px;
+
+
+                }
+            }
+        }
+    }
+
+
+h1 {
+    display: inline;
+    font-family: Helvetica, Arial, sans-serif;
+    padding: 0;
+}
+
+
+h2 {
+display: inline;
+position: absolute;
+top: 80px;
+left: 175px;
+font-size: 22px;
+font-weight: 600;
+}
+
+
+/*
+
+a {
+    text-decoration: none;
+    color: black;
+
+    ul {
+        display: inline;
+        text-decoration: solid black;
+        text-decoration: none;
+
+        &:hover {
+            background-color: black;
+            text-decoration: solid; color: white; 
+        }
+    }
+}
+}
+
+*/
+/*Para meter una query del header, no necesito aclararle a quien le quiero aplicar el estilo si estoy dentro de header*
+
+@media only screen and...../ dentro de la llave del header o del LI o donde la necesite*/
 /*Permite crear listados mas grandes de valores que son de la misma familia*/
 /* lista colores */
 /* lista de fuentes */
-* {
-  margin: 0;
-  padding: 0;
-  font-family: Helvetica, Arial, sans-serif;
-}
 
 /*# sourceMappingURL=style.css.map */

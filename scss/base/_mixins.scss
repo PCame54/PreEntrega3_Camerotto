@@ -1,19 +1,6 @@
 /*Mixins son muy parecidos a los extends, pero  la diferencia principal es que nos permite decidir en el futuro, es decir cuando usemos o incluyamos este mixin en un elemento, que valores van a tener cada una de las poropiedades que esten dentro del mixin*/
 
 /*
-@mixin nombreloco {
-    border: 1px solid black;
-    color: black
-}
-
-.boton-ok {
-    @include nombreloco ();
-}
-*/
-
-/*-----------------------------------*/
-
-/*Otro ejemplo
 @mixin nombreloco ($border, $color) {
     border: $border;
     color: $color;
