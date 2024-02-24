@@ -1,0 +1,50 @@
+header{
+    background-color: #D6B287;
+    top: 0%;
+    width: 100%;
+    
+    nav{
+    
+        a {
+            text-decoration: none;
+            
+            .logo1 {
+                display: inline;
+                margin-top: 20px;
+                margin-left: 40px;
+                width: 130px;
+                padding-bottom: 20px;
+                
+                div {
+
+                }
+            }
+        }
+    }
+}
+
+
+/*
+
+    a {
+        text-decoration: none;
+        color: black;
+    
+        ul {
+            display: inline;
+            text-decoration: solid black;
+            text-decoration: none;
+
+            &:hover {
+                background-color: black;
+                text-decoration: solid; color: white; 
+            }
+        }
+    }
+}
+
+*/
+
+/*Para meter una query del header, no necesito aclararle a quien le quiero aplicar el estilo si estoy dentro de header*
+
+@media only screen and...../ dentro de la llave del header o del LI o donde la necesite*/

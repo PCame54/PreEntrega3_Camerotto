@@ -1,25 +1,17 @@
-* {
-  margin: 0;
-  padding: 0;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-}
+/* Error: Can't find stylesheet to import.
+ *   ,
+ * 7 | @import "_header.scss";
+ *   |         ^^^^^^^^^^^^^^
+ *   '
+ *   scss\style.scss 7:9  root stylesheet */
 
-body header {
-  background-color: #D6B287;
-  color: black;
-  position: static;
-  top: 0%;
-  width: 100%;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Can't find stylesheet to import.\a   \2577 \a 7 \2502  @import \"_header.scss\";\d\a   \2502          ^^^^^^^^^^^^^^\a   \2575 \a   scss\\style.scss 7:9  root stylesheet";
 }
-body header a {
-  text-decoration: none;
-  color: black;
-  text-align: end;
-}
-body header a:hover {
-  background-color: black;
-  text-decoration: solid;
-  color: white;
-}
-
-/*# sourceMappingURL=style.css.map */
