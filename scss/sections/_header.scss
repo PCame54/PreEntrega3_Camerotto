@@ -2,52 +2,96 @@
 @import "../base/listas";
 
 
-
-header{
+header {
+    position: static;
     background-color: $bg-color-main;
     color: black;
+    top: 0%;
+    width: 100%;
+
     nav {
-
-        a{
-        text-decoration: none;
-
+        a {
+            text-decoration: none;
+            color: black;
+            
+        }
             .logo1 {
                 display: inline;
                 margin-top: 20px;
                 margin-left: 40px;
                 width: 130px;
                 padding-bottom: 20px;
-                    
-                    .menu-container{
-                    position: absolute;
-                    text-decoration: none;
-                                            
-                        .menu{
+            }
+        
+            h1 {
+            display: inline;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            padding: 0%; 
+            font-size: 190%;
+            }
+
+            h2 {
+                display: inline;
+                position: absolute;
+                top: 80px;
+                left: 175px;
+                font-size: 22px;
+                font-weight: 600;
+            }
+
+            div {
+                
+                    ul {
+                        position: absolute;
+                        text-decoration: none;
+                        top: 81px;
+                        right: 60px;
+                        $hover-color: white;
+                        padding-right: 0%;
+                        padding-left: 0px;
+
+                        li {
                             display: inline;
-                            
-                            li {
-                                text-decoration: none;
+                            font-size: 18px;
+                            font-weight: bold;
+                            padding-top: 3px;
+                            padding-right: 15px;
+                            padding-bottom: 3px;
+                            padding-left: 15px;
+                            margin: 8px;
+
+                            &:hover {
+                                background-color: rgb(211, 198, 170);
+                                border-radius: 20px;
                             }
+
                         }
-                    }
+                    }   
                 }
             }
         }
-    }
 
 
-    
-h1{
-    display: inline;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-    'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
-}
 
-h2 {
-    display: inline;
+
+
+
+
+/*
+.menu-container {
     position: absolute;
-    top: 80px;
-    left: 175px;
-    font-size: 22px;
-    font-weight: 600;
+    text-decoration: none;
+    top: 83px;
+    right: 60px;
+    .menu {
+        li {
+            text-decoration: none;
+            display: inline;
+            padding-top: 9px;
+            padding-right: 20px;
+            padding-bottom: 0px;
+            padding-left: 20px;
+        }
+    }
 }
+*/

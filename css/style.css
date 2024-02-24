@@ -1,51 +1,6 @@
 /* colores */
 /* fuentes */
 /* estructura */
-/* colores */
-/* fuentes */
-/* estructura */
-/*Permite crear listados mas grandes de valores que son de la misma familia*/
-/* lista colores */
-/* lista de fuentes */
-header {
-  background-color: #D6B287;
-  color: black;
-}
-header nav a {
-  text-decoration: none;
-}
-header nav a .logo1 {
-  display: inline;
-  margin-top: 20px;
-  margin-left: 40px;
-  width: 130px;
-  padding-bottom: 20px;
-}
-header nav a .logo1 .menu-container {
-  position: absolute;
-  text-decoration: none;
-}
-header nav a .logo1 .menu-container .menu {
-  display: inline;
-}
-header nav a .logo1 .menu-container .menu li {
-  text-decoration: none;
-}
-
-h1 {
-  display: inline;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-}
-
-h2 {
-  display: inline;
-  position: absolute;
-  top: 80px;
-  left: 175px;
-  font-size: 22px;
-  font-weight: 600;
-}
-
 /*
 
 header{
@@ -115,5 +70,90 @@ a {
 /*Permite crear listados mas grandes de valores que son de la misma familia*/
 /* lista colores */
 /* lista de fuentes */
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+/* colores */
+/* fuentes */
+/* estructura */
+/*Permite crear listados mas grandes de valores que son de la misma familia*/
+/* lista colores */
+/* lista de fuentes */
+header {
+  position: static;
+  background-color: #D6B287;
+  color: black;
+  top: 0%;
+  width: 100%;
+}
+header nav a {
+  text-decoration: none;
+  color: black;
+}
+header nav .logo1 {
+  display: inline;
+  margin-top: 20px;
+  margin-left: 40px;
+  width: 130px;
+  padding-bottom: 20px;
+}
+header nav h1 {
+  display: inline;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 0%;
+  font-size: 190%;
+}
+header nav h2 {
+  display: inline;
+  position: absolute;
+  top: 80px;
+  left: 175px;
+  font-size: 22px;
+  font-weight: 600;
+}
+header nav div ul {
+  position: absolute;
+  text-decoration: none;
+  top: 81px;
+  right: 60px;
+  padding-right: 0%;
+  padding-left: 0px;
+}
+header nav div ul li {
+  display: inline;
+  font-size: 18px;
+  font-weight: bold;
+  padding-top: 3px;
+  padding-right: 15px;
+  padding-bottom: 3px;
+  padding-left: 15px;
+  margin: 8px;
+}
+header nav div ul li:hover {
+  background-color: rgb(211, 198, 170);
+  border-radius: 20px;
+}
+
+/*
+.menu-container {
+    position: absolute;
+    text-decoration: none;
+    top: 83px;
+    right: 60px;
+    .menu {
+        li {
+            text-decoration: none;
+            display: inline;
+            padding-top: 9px;
+            padding-right: 20px;
+            padding-bottom: 0px;
+            padding-left: 20px;
+        }
+    }
+}
+*/
 
 /*# sourceMappingURL=style.css.map */

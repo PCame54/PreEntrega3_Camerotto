@@ -1,7 +1,19 @@
 @import "../scss/base/variables";
-@import "../scss/sections/header";
+
 @import "../scss/sections/body";
 @import "../scss/sections/footer";
 @import "../scss/base/listas";
 
 
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+
+
+
+
+
+@import "../scss/sections/header";
