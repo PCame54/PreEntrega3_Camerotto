@@ -1,69 +1,6 @@
 /* colores */
 /* fuentes */
 /* estructura */
-/*
-
-header{
-    background-color: nth($colores, 1);
-    top: 0%;
-    width: 100%;
-
-    nav{
-
-        a {
-            text-decoration: none;
-
-            .logo1 {
-                display: inline;
-                margin-top: 20px;
-                margin-left: 40px;
-                width: 130px;
-                padding-bottom: 20px;
-
-
-                }
-            }
-        }
-    }
-
-
-h1 {
-    display: inline;
-    font-family: Helvetica, Arial, sans-serif;
-    padding: 0;
-}
-
-
-h2 {
-display: inline;
-position: absolute;
-top: 80px;
-left: 175px;
-font-size: 22px;
-font-weight: 600;
-}
-
-
-/*
-
-a {
-    text-decoration: none;
-    color: black;
-
-    ul {
-        display: inline;
-        text-decoration: solid black;
-        text-decoration: none;
-
-        &:hover {
-            background-color: black;
-            text-decoration: solid; color: white; 
-        }
-    }
-}
-}
-
-*/
 /*Para meter una query del header, no necesito aclararle a quien le quiero aplicar el estilo si estoy dentro de header*
 
 @media only screen and...../ dentro de la llave del header o del LI o donde la necesite*/
@@ -124,6 +61,7 @@ header nav div ul {
 }
 header nav div ul li {
   display: inline;
+  color: rgba(0, 0, 0, 0.3960784314);
   font-size: 18px;
   font-weight: bold;
   padding-top: 3px;
@@ -137,23 +75,83 @@ header nav div ul li:hover {
   border-radius: 20px;
 }
 
-/*
-.menu-container {
-    position: absolute;
-    text-decoration: none;
-    top: 83px;
-    right: 60px;
-    .menu {
-        li {
-            text-decoration: none;
-            display: inline;
-            padding-top: 9px;
-            padding-right: 20px;
-            padding-bottom: 0px;
-            padding-left: 20px;
-        }
-    }
+.reserva {
+  background-color: #48AD58;
+  border-radius: 10px;
+  padding: 8px;
 }
-*/
+
+@media only screen and (min-width: 481px) and (max-width: 1038px) {
+  nav {
+    height: 185px;
+  }
+  nav .menu {
+    display: flex;
+    right: 6%;
+    margin-top: 52px;
+  }
+  nav .menu li {
+    font-size: 16px;
+    padding: 4px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  Header {
+    position: relative;
+    background-color: rgb(233, 220, 220);
+    padding: 50px;
+    padding-bottom: 30%;
+    color: black;
+  }
+  Header nav a {
+    color: #36362f;
+  }
+  Header nav .logo1 {
+    display: block;
+    width: 140px;
+    margin: auto;
+    margin-top: -30px;
+    margin-bottom: -15px;
+  }
+  Header nav h1 {
+    display: none;
+  }
+  Header nav h2 {
+    display: block;
+    position: static;
+    text-align: center;
+    margin-bottom: -8px;
+    font-style: solid green;
+    font-size: 20px;
+  }
+  Header nav .menu-container {
+    display: block;
+    position: static;
+    margin-top: 20px;
+  }
+  Header nav .menu-container .menu {
+    position: absolute;
+    top: 56%;
+    display: grid;
+    text-align: center;
+    grid-template-rows: 30px 30px 50px;
+    grid-template-columns: 2fr 2fr;
+    row-gap: 5px;
+    padding: 0px 0px 0px 0px;
+  }
+  Header nav .menu-container .menu li {
+    margin-top: 5%;
+    color: rgb(15, 16, 16);
+    text-shadow: #a2d0a9;
+  }
+  Header nav .menu-container .menu .reserva {
+    text-align: center;
+    grid-column: 3/1;
+    margin: 6px;
+    margin-top: 5px;
+    background-color: #a2d0a9;
+    border: 0px;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */

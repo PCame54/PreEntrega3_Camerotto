@@ -13,7 +13,6 @@ header {
         a {
             text-decoration: none;
             color: black;
-            
         }
             .logo1 {
                 display: inline;
@@ -46,12 +45,12 @@ header {
                         text-decoration: none;
                         top: 81px;
                         right: 60px;
-                        $hover-color: white;
                         padding-right: 0%;
                         padding-left: 0px;
 
                         li {
                             display: inline;
+                            color: #00000065;
                             font-size: 18px;
                             font-weight: bold;
                             padding-top: 3px;
@@ -59,39 +58,109 @@ header {
                             padding-bottom: 3px;
                             padding-left: 15px;
                             margin: 8px;
-
+                        
                             &:hover {
                                 background-color: rgb(211, 198, 170);
                                 border-radius: 20px;
+                                }
                             }
-
                         }
                     }   
                 }
+}
+
+.reserva {
+    background-color: #48AD58;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1038px) {
+    nav{
+        height: 185px;
+
+        .menu {
+            display: flex;
+            right: 6%;
+            margin-top: 52px;
+
+            li {
+                font-size: 16px;
+                padding: 4px;
             }
-        }
-
-
-
-
-
-
-
-/*
-.menu-container {
-    position: absolute;
-    text-decoration: none;
-    top: 83px;
-    right: 60px;
-    .menu {
-        li {
-            text-decoration: none;
-            display: inline;
-            padding-top: 9px;
-            padding-right: 20px;
-            padding-bottom: 0px;
-            padding-left: 20px;
         }
     }
 }
-*/
+
+@media only screen and (max-width: 480px) {
+
+    Header {
+        position: relative;
+        background-color: rgb(233, 220, 220);
+        padding: 50px;
+        padding-bottom: 30%;
+        color: black;
+
+        nav {
+
+            a {
+                color: #36362f;
+            }
+
+                .logo1 {
+                    display: block;
+                    width: 140px;
+                    margin: auto;
+                    margin-top: -30px;
+                    margin-bottom: -15px;
+                }
+
+                h1 {
+                    display: none;
+                }
+
+                h2 {
+                    display: block;
+                    position: static;
+                    text-align: center;
+                    margin-bottom: -8px;
+                    font-style: solid green;
+                    font-size: 20px;
+                }
+
+                .menu-container {
+                    display: block;
+                    position: static;
+                    margin-top: 20px;
+
+                    .menu {
+                        position: absolute;
+                        top: 56%;
+                        display: grid;
+                        text-align: center;
+                        grid-template-rows: 30px 30px 50px;
+                        grid-template-columns: 2fr 2fr;
+                        row-gap: 5px;
+                        padding: 0px 0px 0px 0px;
+                        
+                        li { 
+                            margin-top: 5%;
+                            color: rgb(15, 16, 16);
+                        text-shadow: #a2d0a9;
+                        }
+
+                        .reserva {
+                            text-align: center;
+                            grid-column: 3 / 1;
+                            margin: 6px;
+                            margin-top: 5px;
+                            background-color: #a2d0a9;
+                            border: 0px;
+                        }
+                    }
+                }
+            
+        }
+    }
+}
+
