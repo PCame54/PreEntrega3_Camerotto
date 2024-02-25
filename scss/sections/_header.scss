@@ -64,7 +64,6 @@ header {
                                 background-color: rgba(167, 
                                 94, 5, 0.8);
                                 font-style: italic;
-                                color: aqua;
                                 border-radius: 20px;
                                 }
                             }
@@ -77,6 +76,14 @@ header {
     background-image: linear-gradient(to left, rgb(78, 224, 33), white);
     border-radius: 10px;
     padding: 8px;
+}
+
+.selected {
+    color: whitesmoke;
+    background-color: rgba(167, 
+    94, 5, 0.8);
+    font-style: italic;
+    border-radius: 20px;
 }
 
 @media only screen and (min-width: 481px) and (max-width: 1038px) {
@@ -169,7 +176,6 @@ header {
                         
                     }
                 }
-            
         }
     }
 }

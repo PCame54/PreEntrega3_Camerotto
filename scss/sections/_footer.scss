@@ -1,6 +1,10 @@
+.footer {
+    background-color: $bg-color-main;
+    padding-top: 15px;  
+    padding-bottom: 15px;
+    text-align: center;
+}
 
-
-
-/*Para meter una query del header, no necesito aclararle a quien le quiero aplicar el estilo si estoy dentro de header*
-
-@media only screen and...../ dentro de la llave del header o del LI o donde la necesite*/
+.title {
+    text-decoration: underline;
+}
