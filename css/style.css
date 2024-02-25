@@ -71,12 +71,14 @@ header nav div ul li {
   margin: 8px;
 }
 header nav div ul li:hover {
-  background-color: rgb(211, 198, 170);
+  background-color: rgba(167, 94, 5, 0.8);
+  font-style: italic;
+  color: aqua;
   border-radius: 20px;
 }
 
 .reserva {
-  background-color: #48AD58;
+  background-image: linear-gradient(to left, rgb(78, 224, 33), white);
   border-radius: 10px;
   padding: 8px;
 }
@@ -98,13 +100,17 @@ header nav div ul li:hover {
 @media only screen and (max-width: 480px) {
   Header {
     position: relative;
-    background-color: rgb(233, 220, 220);
+    background-color: #D6B287;
     padding: 50px;
-    padding-bottom: 30%;
-    color: black;
+    padding-bottom: 10%;
+    color: rgb(50, 45, 45);
+    font-style: oblique;
+    width: 100%;
   }
   Header nav a {
-    color: #36362f;
+    color: #010101;
+    font-style: normal;
+    padding: 0px;
   }
   Header nav .logo1 {
     display: block;
@@ -120,37 +126,34 @@ header nav div ul li:hover {
     display: block;
     position: static;
     text-align: center;
-    margin-bottom: -8px;
-    font-style: solid green;
-    font-size: 20px;
   }
-  Header nav .menu-container {
-    display: block;
+  Header nav div ul {
     position: static;
-    margin-top: 20px;
-  }
-  Header nav .menu-container .menu {
-    position: absolute;
-    top: 56%;
+    top: 55%;
     display: grid;
     text-align: center;
+    vertical-align: middle;
+    border: 0px;
+    margin-top: 2px;
+    margin-bottom: 2px;
     grid-template-rows: 30px 30px 50px;
     grid-template-columns: 2fr 2fr;
     row-gap: 5px;
-    padding: 0px 0px 0px 0px;
+    text-decoration: solid black;
   }
-  Header nav .menu-container .menu li {
-    margin-top: 5%;
-    color: rgb(15, 16, 16);
-    text-shadow: #a2d0a9;
+  Header nav div ul li {
+    color: rgb(14, 93, 142);
   }
-  Header nav .menu-container .menu .reserva {
+  Header nav div ul li:hover {
+    background-color: #D6B287;
+    border-radius: 50px;
+  }
+  Header nav div ul .reserva {
     text-align: center;
     grid-column: 3/1;
-    margin: 6px;
+    margin: 5px;
     margin-top: 5px;
-    background-color: #a2d0a9;
-    border: 0px;
+    background-color: #48AD58;
   }
 }
 
