@@ -168,7 +168,7 @@ header nav div ul li:hover {
   margin-top: 8px;
   background-color: #D6B287;
 }
-.mid-servicio .servicio {
+.mid-servicio .subtitulot {
   margin-top: 20px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
@@ -219,7 +219,7 @@ header nav div ul li:hover {
   display: block;
   margin: auto;
   width: 165px;
-  padding-top: 4%;
+  padding-top: 1%;
   padding-bottom: 0px;
 }
 
@@ -260,6 +260,48 @@ header nav div ul li:hover {
   }
 }
 /*-- NOSOTROS -- */
+.subtitulot {
+  margin-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 0px;
+  padding-left: 46px;
+}
+
+.text {
+  font-size: 20px;
+  padding-top: 0px;
+  padding-right: 20%;
+  padding-bottom: 30px;
+  padding-left: 46px;
+}
+
+div .javier {
+  display: block;
+  width: 90%;
+  margin-bottom: 5px;
+  margin-top: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-left: 46px;
+}
+div .javierb {
+  display: block;
+  margin: auto;
+  width: 95%;
+  margin-bottom: 40px;
+}
+div .aplauso {
+  display: block;
+  margin: auto;
+  width: 180px;
+  margin-bottom: 40px;
+}
+
 .footer {
   background-color: #D6B287;
   padding-top: 15px;
