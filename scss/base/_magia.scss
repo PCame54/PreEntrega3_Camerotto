@@ -28,3 +28,6 @@ bg-products {
 
 /* en la pagina oficial de SASS encontras muchas mas combinaciones*/
 
+bg-color-mix {
+    background-color: mix($color: #D6B287, $color: #b0a772, $weight: 0.5);
+}
