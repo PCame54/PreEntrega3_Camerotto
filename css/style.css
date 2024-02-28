@@ -375,118 +375,60 @@ div .asado {
 }
 div .mid-logo {
   display: flex;
-  position: absolute;
+  position: relative;
   top: 6%;
   left: 11%;
   width: 17%;
-  margin-top: 40%;
+  margin-top: -38%;
 }
 
 section .menu-body {
-  margin-top: 20px;
+  margin-top: 25%;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 30px;
   font-weight: bold;
   padding-top: 20px;
   padding-bottom: 0px;
-  margin-left: 11%;
+  margin-left: 15%;
   color: #b98a50;
   text-decoration: underline;
 }
 
 .menu-container .menu-row {
-  padding-top: 10px;
-}
-.menu-container .menu-row .recepcion1 {
-  display: inline;
-  margin-left: 20%;
-  color: #b98a50;
-  font-weight: bolder;
-  font-size: 24px;
-}
-.menu-container .menu-row .reca1 li {
   display: flex;
-  position: relative;
-  padding-top: 5px;
-  margin-left: 18.7%;
+  flex-direction: row;
+  padding-left: 20%;
+}
+.menu-container .item-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+.menu-container .item-container .recepcion1 {
+  font-weight: bold;
   color: #b98a50;
   font-size: 20px;
 }
-.menu-container .menu-row .reca2 li {
-  display: flex;
-  position: relative;
-  padding-top: 5px;
-  margin-left: 18.7%;
+.menu-container .item-container .reca1 {
   color: #b98a50;
-  font-size: 20px;
+  margin-left: -6%;
+  padding-top: -8px;
+  padding-bottom: 10px;
 }
-.menu-container .menu-row .reca3 li {
-  display: flex;
-  position: relative;
+.menu-container .pie {
+  margin-top: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
   padding-top: 5px;
-  margin-left: 18.7%;
+  padding-bottom: 40px;
+  margin-left: 60%;
   color: #b98a50;
-  font-size: 20px;
-}
-.menu-container .menu-row .recepcion2 {
-  display: inline-block;
-  margin-top: 10px;
-  margin-left: 50%;
-  color: #6929f3;
-  font-weight: bolder;
-  font-size: 24px;
+  text-decoration: underline;
 }
 
-/*
-        .recepcion1 {
-            display: grid;
-            position: static;
-            top: 10%;
-*/
-/*
-position: static;
-top: 55%;
-display: grid;
-text-align: center;
-vertical-align: middle;
-border: 0px;
-margin-top: 2px;
-margin-bottom: 2px;
-grid-template-rows: 30px 30px 50px;
-grid-template-columns: 2fr 2fr;
-row-gap: 5px;
-text-decoration: solid black;
-*/
-/*
-
-        }            
-        .recepcion1{
-            display: flex;
-            margin-left: 20%;
-            font-size: 25px;
-            color: #b98a50;
-            font-weight: bold;
-        }
-            .menu1 {
-                display: block;
-                margin-left: 20%;
-                text-decoration: none;
-            }
-        }
-    div {
-
-        .recepcion2 {
-            display: flex;
-            position: absolute;
-            margin-top: 0%;
-            margin-left: 60%;
-            font-size: 25px;
-            color: #b98a50;
-            font-weight: bold;
-        }
-    }
-}
-*/
 .footer {
   background-color: #D6B287;
   padding-top: 15px;
