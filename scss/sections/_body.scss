@@ -173,7 +173,6 @@ section {
         font-size: 24px;
         font-weight: bold;
         background-color: #D6B287; 
-        border-radius: 0px 10px 10px 0px;
     }
     
     .recomendado {
@@ -188,7 +187,7 @@ section {
         font-weight: bold;
     }
     .lomo {
-        display: inline;
+        display: flex;
         position: absolute;
         width: 45%;
         margin-bottom: 5px;
@@ -298,6 +297,236 @@ section {
         margin-left: 60%;
         color:#b98a50;
         text-decoration: underline;  
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1039px) {
+
+        section {
+            
+            div {
+
+                .text-menu {
+                    margin-top: 20px;
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size: 19px;
+                    font-weight: bold;
+                    padding-top: 20px;
+                    padding-bottom: 0px;
+                    padding-left: 46px;
+                }
+
+                .galeria {
+                    display: flex;
+                    position: absolute; 
+                    padding: 6px 65% 6px 46px;
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size: 22px;
+                    font-weight: bold;
+                    background-color: #D6B287;
+                    border-radius: 0px 20px 20px 0px;
+                    
+                }
+
+                .recomendado {
+                    display: flex;
+                    position: absolute;
+                    margin-top: 72%;
+                    margin-left: 46px;
+                    font-size: 25px;
+                    font-weight: bold;
+                }
+
+                .lomo {
+                    display: block;
+                    position: absolute;
+                    margin-top: 79%;
+                    margin-bottom: 5px;
+                    font-size: 18px;
+                    padding-left: 0px;
+                    margin-left: 46px;
+                    width: auto;
+                }
+            }
+        
+
+        div {
+            
+            .plato2 {
+                display: block;
+                margin-top: 70px;
+                margin-left: 46px;
+                width: 80%;
+            }
+
+            .linea {
+                display: none;
+            }
+        
+            .asado {
+                display: flex;
+                position: relative;
+                margin-top: 29%;
+                left: 46px;
+                width: 80%;
+
+            }
+
+            .mid-logo{
+                display: flex;
+                position: relative;
+                margin-top: -60%;
+                left: 30px;
+                width: 20%;
+            }
+        }
+    }   
+
+        section {
+
+            .menu-body{
+                margin-top: 35%;
+                font-size: 25px;
+                font-weight: bold;
+                padding-top: 90px;
+                margin-left: 46px;
+                color:#b98a50;
+                text-decoration: underline;
+            }
+        }   
+
+    .menu-container {
+
+        .menu-row {
+            display: flex;
+            flex-direction: row;
+            margin-top: 0%;
+            padding-left: 2%;
+        }
+
+            .pie {
+                margin-top: 5px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 25px;
+                font-weight: bold;
+                padding-top: 5px;
+                padding-bottom: 40px;
+                margin-left: 35%;
+                color:#b98a50;
+                text-decoration: underline;  
+            }
+        }
+}
+
+
+@media only screen and (max-width: 480px) {
+    
+    section {
+            
+        div {
+
+            .text-menu {
+                font-size: 17px;
+                padding-top: 6px;
+                padding-bottom: 3px;
+                padding-left: 28px;
+            }
+
+            .galeria {
+                padding: 6px 65% 6px 28px;
+                font-size: 20px;
+                border-radius: 0px 20px 20px 0px;
+            }
+
+            .recomendado {
+                margin-top: 72%;
+                margin-left: 28px;
+                font-size: 22px;
+            }
+
+            .lomo {
+                margin-top: 79%;
+                margin-bottom: 5px;
+                font-size: 18px;
+                padding-left: 0px;
+                margin-left: 28px;
+                width: auto;
+            }
+        }
+        div {
+            .plato2 {
+                margin-top: 70px;
+                margin-left: 28px;
+                width: 80%;
+            }
+
+            .linea {
+                display: none;
+            }
+
+            .asado {
+                margin-top: 29%;
+                left: 28px;
+                width: 80%;
+            }
+
+            .mid-logo{
+                margin-top: -60%;
+                left: 19px;
+                width: 20%;
+            }
+        }
+    }
+
+    section {
+
+        .menu-body{
+            margin-top: 25%;
+            font-size: 22px;
+            font-weight: bold;
+            padding-top: 90px;
+            margin-left: 28px;
+        }
+    }   
+
+.menu-container {
+
+    .menu-row {
+        margin-top: 0%;
+        padding-left: 1%;
+    
+
+        .item-container {
+            padding-left: 24px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 17px;
+            
+            
+            
+
+            .recepcion1 {
+                font-weight: bold;
+                color: #b98a50;
+                font-size: 19px;
+            }
+
+            .reca1{
+                color: #b98a50;
+                margin-left: -33px;
+                padding-top: 4px;
+                padding-bottom: 10px;
+                list-style-type: none;
+            }
+        }
+    }
+
+        .pie {
+            margin-top: 2px;
+            font-size: 23px;
+            padding-bottom: 20px;
+            margin-left: 75px;
+            text-decoration: underline;  
+        }
     }
 }
 
