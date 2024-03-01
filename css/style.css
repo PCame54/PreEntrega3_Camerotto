@@ -595,6 +595,145 @@ section .menu-body {
     text-decoration: underline;
   }
 }
+/*-- LOCALES -- */
+section .estamos {
+  margin-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 46px;
+}
+
+.dir-container1 {
+  display: flex;
+  position: absolute;
+  justify-content: flex-start;
+  margin-top: 5%;
+  margin-left: 10%;
+}
+.dir-container1 .origen {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  font-size: 24px;
+  color: #b98a50;
+  font-weight: bold;
+}
+.dir-container1 .ubicacion1 {
+  font-size: 20px;
+  color: #b98a50;
+  padding-top: 1px;
+}
+.dir-container1 .direccion1 {
+  color: #464646;
+  font-weight: bold;
+}
+.dir-container1 .direccion1 .smartin {
+  margin-bottom: 2px;
+  font-weight: bold;
+}
+
+.mapa1 {
+  display: flex;
+  position: relative;
+  margin-right: 50%;
+  padding: 0%;
+  margin-top: 0.4%;
+  margin-left: 48%;
+  width: 45%;
+}
+
+section .linea1 {
+  display: flex;
+  position: absolute;
+  margin-top: 60px;
+  padding: 0px 35% 55px;
+  background-color: #D6B287;
+  border-radius: 0px 20px 20px 0px;
+}
+section .logo2 {
+  display: block;
+  margin-left: 70%;
+  width: 165px;
+  padding-top: 30px;
+  padding-bottom: 0px;
+}
+section .mapa2 {
+  display: flex;
+  position: absolute;
+  margin-right: 0%;
+  padding: 0%;
+  margin-top: 0.4%;
+  margin-left: 2%;
+  width: 45%;
+}
+section .dir-container2 {
+  display: block;
+  margin-top: 90px;
+  margin-left: 55%;
+}
+section .dir-container2 .bandera {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  font-size: 24px;
+  color: #b98a50;
+  font-weight: bold;
+}
+section .dir-container2 .ubicacion2 {
+  font-size: 20px;
+  color: #b98a50;
+  padding-top: 1px;
+}
+section .dir-container2 .direccion2 {
+  color: #464646;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+section .dir-container2 .tel2 {
+  margin-bottom: 2px;
+  font-weight: bold;
+  padding-bottom: 30%;
+}
+
+.separador .logo3 {
+  display: block;
+  margin-left: 16%;
+  width: 165px;
+  padding-top: 0px;
+}
+.separador .linea2 {
+  display: flex;
+  position: absolute;
+  margin-top: 2%;
+  margin-left: 32%;
+  padding: 0px 34% 55px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  background-color: #D6B287;
+}
+
+/*VIEJO....
+display: flex;
+        position: absolute; 
+        text-align: end;
+        margin-top: 2%;
+        margin-left: 25%;
+        padding: 0px 34% 55px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 24px;
+        font-weight: bold;
+        background-color: #D6B287; 
+        */
+/*NUEVO....
+        display: flex;
+        position: absolute; 
+        padding: 0px 0px 55px 60%;
+        margin-right: 90%;
+        background-color: $bg-color-main; 
+        border-radius: 20px 0px 0px 20px;
+        */
 .footer {
   background-color: #D6B287;
   padding-top: 15px;
