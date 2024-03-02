@@ -142,7 +142,7 @@ header nav div ul li:hover {
     grid-template-rows: 30px 30px 50px;
     grid-template-columns: 2fr 2fr;
     row-gap: 5px;
-    text-decoration: solid black;
+    color: black;
   }
   Header nav div ul li {
     color: rgb(14, 93, 142);
@@ -943,6 +943,224 @@ section .mapa3 {
     margin-left: -37%;
     height: 50%;
     width: 80%;
+  }
+}
+/* -- EVENTOS -- */
+.inicio {
+  display: inline;
+  padding-left: 180px;
+}
+.inicio .living {
+  margin-top: 30px;
+  padding-bottom: 60px;
+  width: 30%;
+  height: 30%;
+}
+
+.presenta-container {
+  display: inline;
+  position: absolute;
+  padding: 20px;
+  margin-top: 8%;
+  margin-left: 10%;
+}
+.presenta-container div .recepciones {
+  color: #D6B287;
+  font-size: 30px;
+  font-weight: bold;
+}
+.presenta-container div .nosolo {
+  font-size: 25px;
+}
+.presenta-container div .aire {
+  font-size: 23px;
+}
+
+section .logoe {
+  display: flex;
+  position: static;
+  width: 240px;
+  margin-top: -15%;
+  margin-left: 60%;
+}
+section .linevents {
+  display: flex;
+  position: relative;
+  margin-top: 90px;
+  margin-right: 26%;
+  padding: 0px 35% 55px;
+  background-color: #D6B287;
+  border-radius: 0px 20px 20px 0px;
+}
+
+section .parrafo-mid {
+  margin-top: 80px;
+  margin-left: 10%;
+  padding-right: 60%;
+}
+section .parrafo-mid h3 {
+  padding-top: 60px;
+  color: #D6B287;
+}
+section .parrafo-mid .todaocasion {
+  font-size: 20px;
+  color: #464646;
+}
+section .parrafo-mid .nuestras {
+  font-size: 20px;
+  color: #D6B287;
+  font-weight: bold;
+  padding-right: 50px;
+}
+
+.eventos {
+  display: flex;
+  position: static;
+  width: 900px;
+  margin-top: -17%;
+  margin-left: 50%;
+}
+
+.form {
+  margin-top: 35px;
+  margin-bottom: 35px;
+  padding: 0px 50% 10px 10%;
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1039px) {
+  .presenta-container {
+    display: inline;
+    position: absolute;
+    padding: 20px 20px 30px 20px;
+    margin-top: 4%;
+    margin-left: -79%;
+  }
+  .presenta-container div .recepciones {
+    color: #D6B287;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  .presenta-container div .nosolo {
+    font-size: 23px;
+  }
+  .presenta-container div .aire {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .inicio {
+    margin-left: 50px;
+    padding-left: 15px;
+  }
+  .inicio .living {
+    margin-top: 290px;
+    margin-left: 20px;
+    padding-top: 0px;
+    padding-bottom: 60px;
+    width: 70%;
+    height: 70%;
+  }
+  section .logoe {
+    display: none;
+  }
+  section .linevents {
+    margin-top: 30px;
+  }
+  section .parrafo-mid {
+    margin-top: 10px;
+    margin-left: 52px;
+    padding-right: 18%;
+  }
+  section .parrafo-mid h3 {
+    padding-top: 60px;
+    color: #D6B287;
+  }
+  section .parrafo-mid .todaocasion {
+    font-size: 20px;
+    color: #464646;
+  }
+  section .parrafo-mid .nuestras {
+    font-size: 20px;
+    color: #D6B287;
+    font-weight: bold;
+    padding-right: 50px;
+  }
+  .eventos {
+    width: 70%;
+    margin-top: 60px;
+    margin-left: 16%;
+  }
+  .form {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    padding: 0px 7% 10px 10%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .presenta-container {
+    display: inline;
+    position: absolute;
+    padding: 20px 20px 30px 20px;
+    margin-top: 4%;
+    margin-left: -82%;
+  }
+  .presenta-container div .recepciones {
+    color: #D6B287;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  .presenta-container div .nosolo {
+    font-size: 23px;
+  }
+  .presenta-container div .aire {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .inicio {
+    margin-left: 20px;
+    padding-left: 15px;
+  }
+  .inicio .living {
+    margin-top: 290px;
+    margin-left: 20px;
+    padding-top: 0px;
+    padding-bottom: 18px;
+    width: 70%;
+    height: 70%;
+  }
+  section .logoe {
+    display: none;
+  }
+  section .linevents {
+    margin-top: 30px;
+  }
+  section .parrafo-mid {
+    margin-top: 5px;
+    margin-left: 46px;
+    padding-right: 10%;
+  }
+  section .parrafo-mid h3 {
+    padding-top: 20px;
+    color: #D6B287;
+  }
+  section .parrafo-mid .todaocasion {
+    font-size: 20px;
+    color: #464646;
+  }
+  section .parrafo-mid .nuestras {
+    font-size: 20px;
+    color: #D6B287;
+    font-weight: bold;
+    padding-right: 50px;
+  }
+  .eventos {
+    width: 70%;
+    margin-top: 60px;
+    margin-left: 16%;
+  }
+  .form {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    padding: 0px 7% 10px 10%;
   }
 }
 .footer {
