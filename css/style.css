@@ -788,7 +788,7 @@ section .mapa3 {
     padding-top: 20px;
     padding-bottom: 20px;
   }
-  .dir-container2 {
+  section .dir-container2 {
     display: block;
     margin-top: 0px;
     margin-left: 10%;
