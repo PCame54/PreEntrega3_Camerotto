@@ -899,7 +899,7 @@ section .linevents {
 }
 
 section .parrafo-mid {
-  margin-top: 80px;
+  margin-top: 40px;
   margin-left: 10%;
   padding-right: 60%;
 }
@@ -922,14 +922,14 @@ section .parrafo-mid .nuestras {
   display: flex;
   position: static;
   width: 45%;
-  margin-top: -17%;
+  margin-top: -400px;
   margin-left: 50%;
 }
 
 .form {
   margin-top: 35px;
   margin-bottom: 35px;
-  padding: 0px 50% 10px 10%;
+  padding: 60px 50% 10px 10%;
 }
 
 @media only screen and (min-width: 481px) and (max-width: 1039px) {
@@ -971,12 +971,13 @@ section .parrafo-mid .nuestras {
     margin-top: 30px;
   }
   section .parrafo-mid {
-    margin-top: 10px;
+    margin-top: -20px;
     margin-left: 52px;
     padding-right: 18%;
   }
   section .parrafo-mid h3 {
-    padding-top: 60px;
+    margin-top: 30px;
+    padding-top: 5px;
     color: #D6B287;
   }
   section .parrafo-mid .todaocasion {
@@ -995,9 +996,9 @@ section .parrafo-mid .nuestras {
     margin-left: 16%;
   }
   .form {
-    margin-top: 35px;
+    margin-top: 40px;
     margin-bottom: 35px;
-    padding: 0px 7% 10px 10%;
+    padding: 30px 30px 10px 10%;
   }
 }
 @media only screen and (max-width: 480px) {
@@ -1055,11 +1056,11 @@ section .parrafo-mid .nuestras {
     font-size: 20px;
     color: #D6B287;
     font-weight: bold;
-    padding-right: 50px;
+    padding-right: 30px;
   }
   .eventos {
     width: 80%;
-    margin-top: 60px;
+    margin-top: 20px;
     margin-left: 32px;
   }
   .form {
