@@ -1,33 +1,4 @@
 
-/*
-$rojo: #900;
-$verde: #090;
-
-
-bg-products {
-    background-color: $verde;
-    
-    &:hover {
-        background-color: ligthen($verde, 20%);
-    }
-}
-
-.textos {
-    color: rgba ($rojo, 0.8);
-}
-
-.boton-principal {
-    backgroun-color: mix($rojo, $verde);
-
-}
-
-.saturado {
-    color: saturate($rojo, 40%)
-}
-
-
-/* en la pagina oficial de SASS encontras muchas mas combinaciones*/
-
 bg-color-mix {
     background-color: mix($color: #D6B287, $color: #b0a772, $weight: 0.5);
 }

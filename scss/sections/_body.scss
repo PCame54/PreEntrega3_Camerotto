@@ -9,7 +9,7 @@
 
     .subtitulot {
         margin-top: 20px;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: $font-main;
         font-size: 20px;
         font-weight: bold;
         padding-top: 20px;
@@ -109,12 +109,15 @@
 
 .subtitulot {
     margin-top: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: $font-main;
     font-size: 20px;
     font-weight: bold;
     padding-top: 20px;
     padding-bottom: 0px;
     padding-left: 46px;
+        @media only screen and (max-width: 480px) {
+            margin-left: -10px;
+    }
 }
 
 .text {
@@ -131,12 +134,14 @@ div {
         width: 90%;
         margin-bottom: 5px;
         margin-top: 35px;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: $font-main;
         font-size: 22px;
         font-weight: bold;
         padding-top: 20px;
         padding-left: 46px;
+        
     }
+    
     .javierb {
         display: block;
         margin: auto;
@@ -157,7 +162,7 @@ div {
 section {
     .text-menu {
         margin-top: 20px;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: $font-main;
         font-size: 25px;
         font-weight: bold;
         padding-top: 20px;
@@ -169,10 +174,10 @@ section {
         display: flex;
         position: absolute; 
         padding: 10px 60% 10px 46px;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: $font-main;
         font-size: 24px;
         font-weight: bold;
-        background-color: #D6B287; 
+        background-color: $bg-color-main; 
         border-radius: 0px 20px 20px 0px;
     }
     
@@ -182,9 +187,9 @@ section {
         justify-content: flex-start;
         margin-top: 10%;
         margin-left: 46px;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: $font-main;
         font-size: 30px;
-        color:#b98a50;
+        color:$bg-color-main;
         font-weight: bold;
     }
     .lomo {
@@ -193,7 +198,7 @@ section {
         width: 45%;
         margin-bottom: 5px;
         margin-top: 14%;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: $font-main;
         font-size: 25px;
         font-weight: bold;
         padding-top: 5px;
@@ -219,10 +224,10 @@ div {
         margin-top: 2%;
         margin-left: 25%;
         padding: 0px 34% 55px;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: $font-main;
         font-size: 24px;
         font-weight: bold;
-        background-color: #D6B287; 
+        background-color: $bg-color-main; 
         
     }
     
@@ -247,13 +252,13 @@ section {
     
     .menu-body{
         margin-top: 25%;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: $font-main;
         font-size: 30px;
         font-weight: bold;
         padding-top: 20px;
         padding-bottom: 0px;
         margin-left: 15%;
-        color:#b98a50;
+        color:$bg-color-main;
         text-decoration: underline;
     }
 }
@@ -270,19 +275,19 @@ section {
             display: flex;
             flex-direction: column;
             padding-left: 10%;
-            font-family: Arial, Helvetica, sans-serif;
+            font-family: $font-main;
             font-size: 18px;
             
             
 
             .recepcion1 {
                 font-weight: bold;
-                color: #b98a50;
+                color: $bg-color-main;
                 font-size: 20px;
             }
 
             .reca1{
-                color: #b98a50;
+                color: $bg-color-main;
                 margin-left: -6%;
                 padding-top: -8px;
                 padding-bottom: 10px;
@@ -290,7 +295,7 @@ section {
         }
     .pie {
         margin-top: 5px;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: $font-main;
         font-size: 30px;
         font-weight: bold;
         padding-top: 5px;
@@ -309,7 +314,7 @@ section {
 
                 .text-menu {
                     margin-top: 20px;
-                    font-family: Arial, Helvetica, sans-serif;
+                    font-family: $font-main;
                     font-size: 19px;
                     font-weight: bold;
                     padding-top: 20px;
@@ -321,10 +326,10 @@ section {
                     display: flex;
                     position: absolute; 
                     padding: 6px 65% 6px 46px;
-                    font-family: Arial, Helvetica, sans-serif;
+                    font-family: $font-main;
                     font-size: 22px;
                     font-weight: bold;
-                    background-color: #D6B287;
+                    background-color: $bg-color-main;
                     border-radius: 0px 20px 20px 0px;
                     
                 }
@@ -391,7 +396,7 @@ section {
                 font-weight: bold;
                 padding-top: 90px;
                 margin-left: 46px;
-                color:#b98a50;
+                color:$bg-color-main;
                 text-decoration: underline;
             }
         }   
@@ -407,13 +412,13 @@ section {
 
             .pie {
                 margin-top: 5px;
-                font-family: Arial, Helvetica, sans-serif;
+                font-family: $font-main;
                 font-size: 25px;
                 font-weight: bold;
                 padding-top: 5px;
                 padding-bottom: 40px;
                 margin-left: 35%;
-                color:#b98a50;
+                color: $bg-color-main;
                 text-decoration: underline;  
             }
         }
@@ -498,17 +503,17 @@ section {
 
         .item-container {
             padding-left: 18px;
-            font-family: Arial, Helvetica, sans-serif;
+            font-family:$font-main;
             font-size: 17px;
 
             .recepcion1 {
                 font-weight: bold;
-                color: #b98a50;
+                color: $bg-color-main;
                 font-size: 19px;
             }
 
             .reca1{
-                color: #b98a50;
+                color: $bg-color-main;
                 margin-left: -33px;
                 padding-top: 4px;
                 padding-bottom: 10px;
@@ -533,7 +538,7 @@ section {
 section {
     .estamos {
         margin-top: 20px;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: $font-main;
         font-size: 22px;
         font-weight: bold;
         padding-top: 20px;
@@ -553,24 +558,24 @@ section {
         margin-bottom: 0px;
         padding-bottom: 0px;
         font-size: 24px;
-        color: #b98a50;
+        color: $bg-color-main;
         font-weight: bold;
     }
     .ubicacion1 {
         font-size: 20px;
-        color: #b98a50;
+        color: $bg-color-main;
         padding-top: 1px;
     }
     .smartin {
         margin-bottom: 2px;
         font-weight: bold;
-        color: #464646;
+        color: $text-color;
         font-weight: bold;
         }
     .tel {
         margin-bottom: 2px;
         font-weight: bold;
-        color: #464646;
+        color: $text-color;
         font-weight: bold;
     }
     }
@@ -627,21 +632,21 @@ section {
         margin-bottom: 0px;
         padding-bottom: 0px;
         font-size: 24px;
-        color: #b98a50;
+        color: $bg-color-main;
         font-weight: bold;
     }
     .ubicacion2 {
         font-size: 20px;
-        color: #b98a50;
+        color: $bg-color-main;
         padding-top: 1px;
     }
     .direccion2 {
-        color: #464646;
+        color: $text-color;
         font-weight: bold;
         margin-bottom: 5px;
     }        
     .tel2 {
-        color: #464646;
+        color: $text-color;
         margin-bottom: 2px;
         font-weight: bold;
         padding-bottom: 20%;
@@ -750,12 +755,12 @@ section {
             margin-bottom: 0px;
             padding-bottom: 0px;
             font-size: 21px;
-            color: #b98a50;
+            color: $bg-color-main;
             font-weight: bold;
         }
         .ubicacion1 {
             font-size: 19px;
-            color: #b98a50;
+            color: $bg-color-main;
             padding-top: 1px;
         }
         .smartin {
@@ -890,7 +895,7 @@ section{
 
         .todaocasion {
             font-size: 20px;
-            color: #464646;
+            color: $text-color;
         }
         .nuestras {
             font-size: 20px;
@@ -976,7 +981,7 @@ section{
     
             .todaocasion {
                 font-size: 20px;
-                color: #464646;
+                color: $text-color;
             }
             .nuestras {
                 font-size: 20px;
@@ -1057,7 +1062,7 @@ section{
     
             .todaocasion {
                 font-size: 20px;
-                color: #464646;
+                color: $text-color;
             }
             .nuestras {
                 font-size: 20px;
@@ -1103,27 +1108,27 @@ section{
  */
  @-webkit-keyframes scale-up-center {
     0% {
-      -webkit-transform: scale(0.5);
-              transform: scale(0.5);
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
     }
     100% {
-      -webkit-transform: scale(1);
-              transform: scale(1);
+    -webkit-transform: scale(1);
+            transform: scale(1);
     }
-  }
-  @keyframes scale-up-center {
+}
+    @keyframes scale-up-center {
     0% {
-      -webkit-transform: scale(0.5);
-              transform: scale(0.5);
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
     }
     100% {
-      -webkit-transform: scale(1);
-              transform: scale(1);
+    -webkit-transform: scale(1);
+            transform: scale(1);
     }
-  }
-  
+}
+
 /*----------------------------------------*/
- 
+
 	.plato2 {
         -webkit-animation: flip-in-hor-bottom 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
                 animation: flip-in-hor-bottom 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
@@ -1141,28 +1146,27 @@ section{
  * animation flip-in-hor-bottom
  * ----------------------------------------
  */
- @-webkit-keyframes flip-in-hor-bottom {
+@-webkit-keyframes flip-in-hor-bottom {
     0% {
-      -webkit-transform: rotateX(80deg);
-              transform: rotateX(80deg);
-      opacity: 0;
+    -webkit-transform: rotateX(80deg);
+            transform: rotateX(80deg);
+    opacity: 0;
     }
     100% {
-      -webkit-transform: rotateX(0);
-              transform: rotateX(0);
-      opacity: 1;
+    -webkit-transform: rotateX(0);
+            transform: rotateX(0);
+    opacity: 1;
     }
-  }
-  @keyframes flip-in-hor-bottom {
+}
+    @keyframes flip-in-hor-bottom {
     0% {
-      -webkit-transform: rotateX(80deg);
-              transform: rotateX(80deg);
-      opacity: 0;
+    -webkit-transform: rotateX(80deg);
+            transform: rotateX(80deg);
+    opacity: 0;
     }
     100% {
-      -webkit-transform: rotateX(0);
-              transform: rotateX(0);
-      opacity: 1;
+    -webkit-transform: rotateX(0);
+            transform: rotateX(0);
+    opacity: 1;
     }
-  }
-  
+}

@@ -1,22 +1,4 @@
 @charset "UTF-8";
-/* colores */
-/* fuentes */
-/* estructura */
-/*Permite crear listados mas grandes de valores que son de la misma familia*/
-/* lista colores */
-/* lista de fuentes */
-* {
-  margin: 0%;
-  padding: 0%;
-  font-family: Helvetica, Arial, sans-serif;
-}
-
-/* colores */
-/* fuentes */
-/* estructura */
-/*Permite crear listados mas grandes de valores que son de la misma familia*/
-/* lista colores */
-/* lista de fuentes */
 header {
   position: static;
   background-color: #D6B287;
@@ -59,7 +41,7 @@ header nav div ul {
 }
 header nav div ul li {
   display: inline;
-  color: rgba(0, 0, 0, 0.3960784314);
+  color: black;
   font-size: 18px;
   font-weight: bold;
   padding-top: 3px;
@@ -106,6 +88,7 @@ header nav div ul li:hover {
     position: relative;
     background-color: #D6B287;
     padding: 50px;
+    padding-left: 35px;
     padding-bottom: 10%;
     color: rgb(50, 45, 45);
     font-style: oblique;
@@ -146,7 +129,7 @@ header nav div ul li:hover {
     color: black;
   }
   Header nav div ul li {
-    color: rgb(14, 93, 142);
+    color: rgba(92, 180, 215, 0.8);
   }
   Header nav div ul li:hover {
     background-color: #D6B287;
@@ -270,6 +253,11 @@ header nav div ul li:hover {
   padding-bottom: 0px;
   padding-left: 46px;
 }
+@media only screen and (max-width: 480px) {
+  .subtitulot {
+    margin-left: -10px;
+  }
+}
 
 .text {
   font-size: 20px;
@@ -331,7 +319,7 @@ section .recomendado {
   margin-left: 46px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 30px;
-  color: #b98a50;
+  color: #D6B287;
   font-weight: bold;
 }
 section .lomo {
@@ -391,7 +379,7 @@ section .menu-body {
   padding-top: 20px;
   padding-bottom: 0px;
   margin-left: 15%;
-  color: #b98a50;
+  color: #D6B287;
   text-decoration: underline;
 }
 
@@ -409,11 +397,11 @@ section .menu-body {
 }
 .menu-container .item-container .recepcion1 {
   font-weight: bold;
-  color: #b98a50;
+  color: #D6B287;
   font-size: 20px;
 }
 .menu-container .item-container .reca1 {
-  color: #b98a50;
+  color: #D6B287;
   margin-left: -6%;
   padding-top: -8px;
   padding-bottom: 10px;
@@ -497,7 +485,7 @@ section .menu-body {
     font-weight: bold;
     padding-top: 90px;
     margin-left: 46px;
-    color: #b98a50;
+    color: #D6B287;
     text-decoration: underline;
   }
   .menu-container .menu-row {
@@ -514,7 +502,7 @@ section .menu-body {
     padding-top: 5px;
     padding-bottom: 40px;
     margin-left: 35%;
-    color: #b98a50;
+    color: #D6B287;
     text-decoration: underline;
   }
 }
@@ -579,11 +567,11 @@ section .menu-body {
   }
   .menu-container .menu-row .item-container .recepcion1 {
     font-weight: bold;
-    color: #b98a50;
+    color: #D6B287;
     font-size: 19px;
   }
   .menu-container .menu-row .item-container .reca1 {
-    color: #b98a50;
+    color: #D6B287;
     margin-left: -33px;
     padding-top: 4px;
     padding-bottom: 10px;
@@ -619,12 +607,12 @@ section .estamos {
   margin-bottom: 0px;
   padding-bottom: 0px;
   font-size: 24px;
-  color: #b98a50;
+  color: #D6B287;
   font-weight: bold;
 }
 .dir-container1 .ubicacion1 {
   font-size: 20px;
-  color: #b98a50;
+  color: #D6B287;
   padding-top: 1px;
 }
 .dir-container1 .smartin {
@@ -685,12 +673,12 @@ section .mapa8 {
   margin-bottom: 0px;
   padding-bottom: 0px;
   font-size: 24px;
-  color: #b98a50;
+  color: #D6B287;
   font-weight: bold;
 }
 .dir-container2 .ubicacion2 {
   font-size: 20px;
-  color: #b98a50;
+  color: #D6B287;
   padding-top: 1px;
 }
 .dir-container2 .direccion2 {
@@ -787,12 +775,12 @@ section .mapa8 {
     margin-bottom: 0px;
     padding-bottom: 0px;
     font-size: 21px;
-    color: #b98a50;
+    color: #D6B287;
     font-weight: bold;
   }
   .dir-container1 .ubicacion1 {
     font-size: 19px;
-    color: #b98a50;
+    color: #D6B287;
     padding-top: 1px;
   }
   .dir-container1 .smartin {
@@ -1156,6 +1144,12 @@ section .parrafo-mid .nuestras {
 
 .title {
   text-decoration: underline;
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 /*# sourceMappingURL=style.css.map */
