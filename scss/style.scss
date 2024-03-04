@@ -5,7 +5,9 @@
 
 @import "../scss/base/variables";
 @import "../scss/base/listas";
-
+@import "../scss/base/extends";
+@import "../scss/base/mapas";
+@import "../scss/base/mixins";
 
 
 
@@ -14,6 +16,7 @@
     padding: 0%;
     font-family: Helvetica, Arial, sans-serif;
 }
+
 
 
 

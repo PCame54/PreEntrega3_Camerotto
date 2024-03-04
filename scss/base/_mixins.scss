@@ -1,3 +1,7 @@
 
 
-@mixin nav-buttons ()
+@mixin textarea ($color, $background-color, $font-size){
+    color: $color;
+    background-color: $background-color;
+    font-size: $font-size;
+}

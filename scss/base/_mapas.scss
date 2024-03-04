@@ -1,14 +1,24 @@
 
 
+$ubi-locales: (
+    color-main: #D6B287,
+    font-weight: bold,
+    color-secondary: #464646,
+    font-size-title: 24px,
+    font-size-sub: 20px,
+    font-size-txt: 18px,
+);
+
+
 $bg-user: (
     color: green,
-    border: 1px dotted blue,
+    border: 1px dotted #D6B287,
     font-size: 28px
 );
 
 $bg-user-gold: (
     color-gold: black,
-    border-gold: 1px dotted gold,
-    font-size-gold: 44px
+    border-gold: 1px dotted rgba(92, 180, 215, 0.8),
+    font-size-gold: 25px
 );
 

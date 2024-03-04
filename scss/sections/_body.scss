@@ -1,4 +1,13 @@
-/*-- INDEX -- */
+@import "../base/mapas";
+@import "../base/variables";
+@import "../base/listas";
+@import "../base/extends";
+@import "../base/mixins";
+
+
+
+/* HEADER */
+
 .ytcontainer {
     margin-top: 8px;
 }
@@ -10,7 +19,7 @@
     .subtitulot {
         margin-top: 20px;
         font-family: $font-main;
-        font-size: 20px;
+        font-size: map-get($map: $ubi-locales, $key: font-size-sub );
         font-weight: bold;
         padding-top: 20px;
         padding-bottom: 0px;
@@ -46,6 +55,9 @@
     font-weight: bold;
     padding-top: 20px;
     padding-left: 46px;
+    @media only screen and (max-width: 480px) {
+        padding-left: 35px;
+    }
 }
 
 .plato1 {
@@ -126,19 +138,20 @@
     padding-right: 20%;
     padding-bottom: 30px;
     padding-left: 46px;
+
 }
 
 div {
     .javier {
         display: block;
-        width: 90%;
         margin-bottom: 5px;
         margin-top: 35px;
         font-family: $font-main;
         font-size: 22px;
         font-weight: bold;
-        padding-top: 20px;
+        padding-top: 0px;
         padding-left: 46px;
+        @include textarea(black, $bg-color-main, 22px);
         
     }
     
@@ -168,7 +181,6 @@ section {
         padding-top: 20px;
         padding-bottom: 0px;
         padding-left: 46px;
-        
     }
     .galeria {
         display: flex;
@@ -212,7 +224,7 @@ div {
         display: flex;
         position: relative;
         padding: 0%;
-        margin-top: 0.4%;
+        margin-top: 116px;
         margin-left: 48%;
         width: 45%;
     }
@@ -360,7 +372,7 @@ section {
             
             .plato2 {
                 display: block;
-                margin-top: 70px;
+                margin-top: 160px;
                 margin-left: 46px;
                 width: 80%;
             }
@@ -461,7 +473,7 @@ section {
         }
         div {
             .plato2 {
-                margin-top: 80px;
+                margin-top: 158px;
                 margin-left: 28px;
                 width: 80%;
             }
@@ -471,7 +483,7 @@ section {
             }
 
             .asado {
-                margin-top: 40%;
+                margin-top: 60px;
                 left: 28px;
                 width: 80%;
             }
@@ -539,11 +551,11 @@ section {
     .estamos {
         margin-top: 20px;
         font-family: $font-main;
-        font-size: 22px;
         font-weight: bold;
         padding-top: 20px;
         padding-bottom: 20px;
         padding-left: 46px;
+        @include textarea (#464646, none, 22px);
     }
 }
 
@@ -557,12 +569,12 @@ section {
     .origen {
         margin-bottom: 0px;
         padding-bottom: 0px;
-        font-size: 24px;
-        color: $bg-color-main;
+        font-size: map-get($map: $ubi-locales, $key: font-size-title );
+        color: map-get($map: $ubi-locales, $key: color-main );
         font-weight: bold;
     }
     .ubicacion1 {
-        font-size: 20px;
+        font-size: map-get($map: $ubi-locales, $key: font-size-sub );
         color: $bg-color-main;
         padding-top: 1px;
     }
@@ -586,7 +598,7 @@ section {
     position: relative;
     margin-right: 50%;
     padding: 0%;
-    margin-top: 0.4%;
+    margin-top: 140px;
     margin-left: 48%;
     width: 45%;
 }
@@ -595,7 +607,7 @@ section {
     .linea1 {
         display: flex;
         position: absolute; 
-        margin-top: 60px;
+        margin-top: 15px;
         padding: 0px 35% 55px;
         background-color: $bg-color-main; 
         border-radius: 0px 20px 20px 0px;
@@ -605,7 +617,7 @@ section {
         display: block;
         margin-left: 70%;
         width: 165px;
-        padding-top: 30px;
+        padding-top: 0px;
         padding-bottom: 0px;
     }
 }
@@ -631,12 +643,12 @@ section {
     .bandera {
         margin-bottom: 0px;
         padding-bottom: 0px;
-        font-size: 24px;
+        font-size: map-get($map: $ubi-locales, $key: font-size-title );
         color: $bg-color-main;
         font-weight: bold;
     }
     .ubicacion2 {
-        font-size: 20px;
+        font-size: map-get($map: $ubi-locales, $key: font-size-sub );
         color: $bg-color-main;
         padding-top: 1px;
     }
@@ -694,9 +706,10 @@ section {
         }
         .logo2 {
             display: block; 
+            margin-top: 0px;
             margin-left: 35%;
             width: 140px;
-            padding-top: 30px;
+            padding-top: 0px;
             padding-bottom: 30px;
         }
     }
@@ -774,7 +787,7 @@ section {
         .mapa1{
             display: block;
             padding-top: 28%;
-            margin-top: 80px;
+            margin-top: 180px;
             margin-right: 30%;
             margin-left: 35px;
             height: 50%;
@@ -786,7 +799,8 @@ section {
             display: none;
         }
         .logo2 {
-            display: block; 
+            display: block;
+            margin-top: -95px; 
             margin-left: 30%;
             width: 120px;
             padding-top: 20px;
@@ -796,7 +810,7 @@ section {
 
     .dir-container2 {
         display: block;
-        margin-top: -105%;
+        margin-top: -108%;
         margin-left: 10%;
         margin-bottom: 50%;
         padding-left: 0px;
@@ -874,13 +888,7 @@ section {
         margin-left: 60%;
     }
     .linevents {
-        display: flex;
-        position: relative; 
-        margin-top: 90px;
-        margin-right: 26%;
-        padding: 0px 35% 55px;
-        background-color: $bg-color-main; 
-        border-radius: 0px 20px 20px 0px;
+        @extend %linea;
     }
 }
 section{
@@ -911,7 +919,7 @@ section{
     display: flex;
     position: static;
     width: 45%;
-    margin-top: -400px;
+    margin-top: -360px;
     margin-left: 50%;
     }
 
@@ -929,7 +937,7 @@ section{
         position: absolute;
         padding: 20px 20px 30px 20px;
         margin-top: 4%;
-        margin-left: -79%;
+        margin-left: -60%;
             div {
                 .recepciones {
                     color: $bg-color-main;
@@ -951,7 +959,7 @@ section{
         
             .living {
                 margin-top: 290px;
-                margin-left: 20px;
+                margin-left: -100px;
                 padding-top: 0px;
                 padding-bottom: 60px;
                 width: 70%;
@@ -965,7 +973,7 @@ section{
         }
     section {
         .linevents {
-            margin-top: 30px;
+            margin-top: 0px;
         }
     }
     section {
@@ -1011,7 +1019,7 @@ section{
         position: absolute;
         padding: 20px 20px 30px 20px;
         margin-top: 4%;
-        margin-left: -82%;
+        margin-left: -47%;
             div {
                 .recepciones {
                     color: $bg-color-main;
@@ -1033,9 +1041,9 @@ section{
         
             .living {
                 margin-top: 290px;
-                margin-left: 20px;
+                margin-left: -95px;
                 padding-top: 0px;
-                padding-bottom: 18px;
+                padding-bottom:0px;
                 width: 70%;
                 height: 70%;
             }
@@ -1095,18 +1103,6 @@ section{
     }
 
 
-/* ----------------------------------------------
- * Generated by Animista on 2024-3-3 4:20:10
- * Licensed under FreeBSD License.
- * See http://animista.net/license for more info. 
- * w: http://animista.net, t: @cssanimista
- * ---------------------------------------------- */
-
-/**
- * ----------------------------------------
- * animation scale-up-center
- * ----------------------------------------
- */
  @-webkit-keyframes scale-up-center {
     0% {
     -webkit-transform: scale(0.5);
@@ -1130,44 +1126,56 @@ section{
 
 /*----------------------------------------*/
 
-	.plato2 {
-        -webkit-animation: flip-in-hor-bottom 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-                animation: flip-in-hor-bottom 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-    }
 
-/* ----------------------------------------------
- * Generated by Animista on 2024-3-3 4:35:39
- * Licensed under FreeBSD License.
- * See http://animista.net/license for more info. 
- * w: http://animista.net, t: @cssanimista
- * ---------------------------------------------- */
+.plato2,.mapa1 {
+	-webkit-animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
 
-/**
- * ----------------------------------------
- * animation flip-in-hor-bottom
- * ----------------------------------------
- */
-@-webkit-keyframes flip-in-hor-bottom {
+
+@-webkit-keyframes slide-top {
     0% {
-    -webkit-transform: rotateX(80deg);
-            transform: rotateX(80deg);
-    opacity: 0;
+    -webkit-transform: translateY(0);
+        transform: translateY(0);
     }
     100% {
-    -webkit-transform: rotateX(0);
-            transform: rotateX(0);
-    opacity: 1;
+    -webkit-transform: translateY(-100px);
+        transform: translateY(-100px);
     }
 }
-    @keyframes flip-in-hor-bottom {
+    @keyframes slide-top {
     0% {
-    -webkit-transform: rotateX(80deg);
-            transform: rotateX(80deg);
-    opacity: 0;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
     }
     100% {
-    -webkit-transform: rotateX(0);
-            transform: rotateX(0);
-    opacity: 1;
+    -webkit-transform: translateY(-100px);
+        transform: translateY(-100px);
+    }
+}
+
+.living {
+	-webkit-animation: slide-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	    animation: slide-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes slide-right {
+    0% {
+    -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+    100% {
+    -webkit-transform: translateX(100px);
+        transform: translateX(100px);
+    }
+    }
+@keyframes slide-right {
+    0% {
+    -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+    100% {
+    -webkit-transform: translateX(100px);
+        transform: translateX(100px);
     }
 }
