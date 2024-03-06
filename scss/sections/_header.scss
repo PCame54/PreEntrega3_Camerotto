@@ -93,11 +93,16 @@ header {
 
             li {
                 font-size: 16px;
+                margin-top: 6px;
+                padding-right: 10px;
+                padding-left: 10px;
+                margin-right: 5px;
+                margin-left: 5px;
             }
                 .reserva {
                     background-image: linear-gradient(to left, rgb(78, 224, 33), white);
                     border-radius: 10px;
-                    margin-top: -1px;
+                    margin-top: 6px;
                     padding: 4px;
                 }
         }

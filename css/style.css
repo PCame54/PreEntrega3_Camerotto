@@ -89,11 +89,16 @@ header nav div ul li:hover {
   }
   nav .menu li {
     font-size: 16px;
+    margin-top: 6px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
   }
   nav .menu .reserva {
     background-image: linear-gradient(to left, rgb(78, 224, 33), white);
     border-radius: 10px;
-    margin-top: -1px;
+    margin-top: 6px;
     padding: 4px;
   }
 }
@@ -157,7 +162,7 @@ header nav div ul li:hover {
     background-color: #48AD58;
   }
 }
-/* HEADER */
+/* HOME */
 .ytcontainer {
   margin-top: 8px;
 }
@@ -762,7 +767,7 @@ section .mapa8 {
   }
   section .logo2 {
     display: block;
-    margin-top: 0px;
+    margin-top: -30px;
     margin-left: 35%;
     width: 140px;
     padding-top: 0px;
