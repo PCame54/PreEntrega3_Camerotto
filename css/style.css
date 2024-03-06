@@ -476,7 +476,7 @@ section .menu-body {
   section div .recomendado {
     display: flex;
     position: absolute;
-    margin-top: 72%;
+    margin-top: 69%;
     margin-left: 46px;
     font-size: 25px;
     font-weight: bold;
@@ -484,7 +484,7 @@ section .menu-body {
   section div .lomo {
     display: block;
     position: absolute;
-    margin-top: 79%;
+    margin-top: 76%;
     margin-bottom: 5px;
     font-size: 18px;
     padding-left: 0px;
@@ -493,7 +493,7 @@ section .menu-body {
   }
   section div .plato2 {
     display: block;
-    margin-top: 160px;
+    margin-top: 165px;
     margin-left: 46px;
     width: 80%;
     border-radius: 15px 15px 15px 15px;
@@ -504,7 +504,7 @@ section .menu-body {
   section div .asado {
     display: flex;
     position: relative;
-    margin-top: 29%;
+    margin-top: 110px;
     left: 46px;
     width: 80%;
     border-radius: 15px 15px 15px 15px;
