@@ -89,6 +89,11 @@ header nav div ul li:hover {
   }
   nav .menu li {
     font-size: 16px;
+  }
+  nav .menu .reserva {
+    background-image: linear-gradient(to left, rgb(78, 224, 33), white);
+    border-radius: 10px;
+    margin-top: -1px;
     padding: 4px;
   }
 }
@@ -152,16 +157,6 @@ header nav div ul li:hover {
     background-color: #48AD58;
   }
 }
-section .linevents {
-  display: flex;
-  position: relative;
-  margin-top: 90px;
-  margin-right: 26%;
-  padding: 0px 35% 55px;
-  background-color: #D6B287;
-  border-radius: 0px 20px 20px 0px;
-}
-
 /* HEADER */
 .ytcontainer {
   margin-top: 8px;
@@ -221,6 +216,12 @@ section .linevents {
   height: 60%;
   padding-top: 15px;
   margin-left: 20%;
+  border-radius: 50px 50px 50px 50px;
+}
+@media only screen and (max-width: 480px) {
+  .plato1 {
+    border-radius: 0px 0px 0px 0px;
+  }
 }
 
 .logo-home {
@@ -309,6 +310,7 @@ div .javierb {
   margin: auto;
   width: 95%;
   margin-bottom: 40px;
+  border-radius: 20px 20px 20px 20px;
 }
 div .aplauso {
   display: block;
@@ -368,6 +370,7 @@ div .plato2 {
   margin-top: 116px;
   margin-left: 48%;
   width: 45%;
+  border-radius: 20px 20px 20px 20px;
 }
 div .linea {
   display: flex;
@@ -387,6 +390,7 @@ div .asado {
   left: 20%;
   width: 50%;
   margin-top: 2%;
+  border-radius: 20px 20px 20px 20px;
 }
 div .mid-logo {
   display: flex;
@@ -487,6 +491,7 @@ section .menu-body {
     margin-top: 160px;
     margin-left: 46px;
     width: 80%;
+    border-radius: 15px 15px 15px 15px;
   }
   section div .linea {
     display: none;
@@ -497,6 +502,7 @@ section .menu-body {
     margin-top: 29%;
     left: 46px;
     width: 80%;
+    border-radius: 15px 15px 15px 15px;
   }
   section div .mid-logo {
     display: flex;
@@ -561,6 +567,7 @@ section .menu-body {
     margin-top: 158px;
     margin-left: 28px;
     width: 80%;
+    border-radius: 10px 10px 10px 10px;
   }
   section div .linea {
     display: none;
@@ -569,6 +576,7 @@ section .menu-body {
     margin-top: 60px;
     left: 28px;
     width: 80%;
+    border-radius: 10px 10px 10px 10px;
   }
   section div .mid-logo {
     margin-top: -60%;
@@ -875,10 +883,11 @@ section .mapa8 {
   padding-left: 180px;
 }
 .inicio .living {
-  margin-top: 30px;
+  margin-top: 90px;
   padding-bottom: 60px;
   width: 30%;
   height: 30%;
+  border-radius: 20px 20px 20px 900px;
 }
 
 .presenta-container {
@@ -903,12 +912,12 @@ section .mapa8 {
 section .logoe {
   display: flex;
   position: static;
-  width: 240px;
+  width: 200px;
   margin-top: -15%;
   margin-left: 60%;
 }
 section .parrafo-mid {
-  margin-top: 40px;
+  margin-top: 20px;
   margin-left: 10%;
   padding-right: 60%;
 }
@@ -933,6 +942,7 @@ section .parrafo-mid .nuestras {
   width: 45%;
   margin-top: -360px;
   margin-left: 50%;
+  border-radius: 20px 20px 20px 20px;
 }
 
 .form {
@@ -947,7 +957,7 @@ section .parrafo-mid .nuestras {
     position: absolute;
     padding: 20px 20px 30px 20px;
     margin-top: 4%;
-    margin-left: -60%;
+    margin-left: -40%;
   }
   .presenta-container div .recepciones {
     color: #D6B287;
@@ -966,12 +976,12 @@ section .parrafo-mid .nuestras {
     padding-left: 15px;
   }
   .inicio .living {
-    margin-top: 290px;
+    margin-top: 220px;
     margin-left: -100px;
     padding-top: 0px;
     padding-bottom: 60px;
-    width: 70%;
-    height: 70%;
+    width: 50%;
+    height: 50%;
   }
   section .logoe {
     display: none;

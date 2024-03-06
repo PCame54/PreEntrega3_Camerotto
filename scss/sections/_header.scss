@@ -93,11 +93,17 @@ header {
 
             li {
                 font-size: 16px;
-                padding: 4px;
             }
+                .reserva {
+                    background-image: linear-gradient(to left, rgb(78, 224, 33), white);
+                    border-radius: 10px;
+                    margin-top: -1px;
+                    padding: 4px;
+                }
         }
     }
 }
+
 
 @media only screen and (max-width: 480px) {
 

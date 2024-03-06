@@ -1,11 +1,3 @@
-@import "../base/mapas";
-@import "../base/variables";
-@import "../base/listas";
-@import "../base/extends";
-@import "../base/mixins";
-
-
-
 /* HEADER */
 
 .ytcontainer {
@@ -65,6 +57,10 @@
     height: 60%;
     padding-top: 15px;
     margin-left: 20%;
+    border-radius: 50px 50px 50px 50px;
+    @media only screen and (max-width: 480px) {
+        border-radius: 0px 0px 0px 0px;
+    }
 }
 
 .logo-home {
@@ -160,6 +156,7 @@ div {
         margin: auto;
         width: 95%;
         margin-bottom: 40px;
+        border-radius: 20px 20px 20px 20px;
     }
     .aplauso {
         display: block;
@@ -227,6 +224,7 @@ div {
         margin-top: 116px;
         margin-left: 48%;
         width: 45%;
+        border-radius: 20px 20px 20px 20px;
     }
 
     .linea{
@@ -249,6 +247,7 @@ div {
         left: 20%;
         width: 50%;
         margin-top: 2%;
+        border-radius: 20px 20px 20px 20px;
     }
     .mid-logo{
         display: flex;
@@ -375,6 +374,7 @@ section {
                 margin-top: 160px;
                 margin-left: 46px;
                 width: 80%;
+                border-radius: 15px 15px 15px 15px;
             }
 
             .linea {
@@ -387,6 +387,7 @@ section {
                 margin-top: 29%;
                 left: 46px;
                 width: 80%;
+                border-radius: 15px 15px 15px 15px;
 
             }
 
@@ -476,6 +477,7 @@ section {
                 margin-top: 158px;
                 margin-left: 28px;
                 width: 80%;
+                border-radius: 10px 10px 10px 10px;
             }
 
             .linea {
@@ -486,6 +488,7 @@ section {
                 margin-top: 60px;
                 left: 28px;
                 width: 80%;
+                border-radius: 10px 10px 10px 10px;
             }
 
             .mid-logo{
@@ -601,6 +604,7 @@ section {
     margin-top: 140px;
     margin-left: 48%;
     width: 45%;
+    
 }
 
 section {
@@ -852,10 +856,11 @@ section {
     padding-left: 180px;
 
     .living {
-        margin-top: 30px;
+        margin-top: 90px;
         padding-bottom: 60px;
         width: 30%;
         height: 30%;
+        border-radius: 20px 20px 20px 900px;
     }
 }
 
@@ -883,7 +888,7 @@ section {
     .logoe {
         display: flex;
         position: static;
-        width: 240px;
+        width: 200px;
         margin-top: -15%;
         margin-left: 60%;
     }
@@ -893,7 +898,7 @@ section {
 }
 section{
     .parrafo-mid {
-        margin-top: 40px;
+        margin-top: 20px;
         margin-left: 10%;
         padding-right: 60%;
         
@@ -921,6 +926,7 @@ section{
     width: 45%;
     margin-top: -360px;
     margin-left: 50%;
+    border-radius: 20px 20px 20px 20px;
     }
 
 .form {
@@ -937,7 +943,7 @@ section{
         position: absolute;
         padding: 20px 20px 30px 20px;
         margin-top: 4%;
-        margin-left: -60%;
+        margin-left: -40%;
             div {
                 .recepciones {
                     color: $bg-color-main;
@@ -958,12 +964,13 @@ section{
             padding-left: 15px;
         
             .living {
-                margin-top: 290px;
+                margin-top: 220px;
                 margin-left: -100px;
                 padding-top: 0px;
                 padding-bottom: 60px;
-                width: 70%;
-                height: 70%;
+                width: 50%;
+                height: 50%;
+                
             }
         }
         section {
