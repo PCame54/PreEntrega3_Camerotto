@@ -347,8 +347,7 @@ section .galeria {
 section .recomendado {
   display: flex;
   position: absolute;
-  justify-content: flex-start;
-  margin-top: 10%;
+  margin-top: 140px;
   margin-left: 46px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 30px;
@@ -358,13 +357,10 @@ section .recomendado {
 section .lomo {
   display: flex;
   position: absolute;
-  width: 45%;
-  margin-bottom: 5px;
-  margin-top: 14%;
+  margin-top: 190px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 25px;
   font-weight: bold;
-  padding-top: 5px;
   padding-left: 46px;
 }
 
@@ -476,19 +472,20 @@ section .menu-body {
   section div .recomendado {
     display: flex;
     position: absolute;
-    margin-top: 69%;
+    margin-top: 66%;
     margin-left: 46px;
+    padding-top: 15px;
     font-size: 25px;
     font-weight: bold;
   }
   section div .lomo {
     display: block;
     position: absolute;
-    margin-top: 76%;
-    margin-bottom: 5px;
-    font-size: 18px;
-    padding-left: 0px;
+    margin-top: 74%;
     margin-left: 46px;
+    font-size: 18px;
+    padding-top: 15px;
+    padding-left: 0px;
     width: auto;
   }
   section div .plato2 {
@@ -1187,4 +1184,4 @@ section .parrafo-mid .nuestras {
   font-family: Helvetica, Arial, sans-serif;
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=Style.css.map */
