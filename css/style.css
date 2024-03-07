@@ -853,7 +853,7 @@ section .mapa8 {
   }
   .dir-container2 {
     display: block;
-    margin-top: -104%;
+    margin-top: -100%;
     margin-left: 10%;
     margin-bottom: 50%;
     padding-left: 0px;
